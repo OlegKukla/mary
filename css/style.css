@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mate', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.background-img {
+    background-image: url(../images/bi.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header__language,
+.header__location {
+    margin-left: 15px;
+}
+
+.content {
+    margin-top: 110px;
+}
+
+.content__item {
+    margin-left: 600px;
+}
+
+.content__item-text {
+    margin-top: -10px;
+}
+
+.content__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content__form-input {
+    background: #F5F5F5;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: none;
+    min-height: 40px;
+    width: 350px;
+    padding-left: 20px;
+    font-family: 'Mate', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.content__form-input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.content__form-input+.content__form-input {
+    margin-top: 22px;
+}
+
+.content__form-btn {
+    background: rgba(216, 85, 44, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    width: 147px;
+    height: 38px;
+    font-family: 'Mate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.content__form-link {
+    font-family: 'Mate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3em;
+    margin-top: 22px;
+    color: #000;
+    margin-bottom: 283px;
+}
+
+.content__form-link:hover{
+    border-bottom: 1px solid #000;;
+}
